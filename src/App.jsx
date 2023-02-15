@@ -10,7 +10,17 @@ import Services from './components/Services/Services.jsx';
 import Testimonials from './components/Testimonials/Testimonials.jsx';
 const App = () => {
     return (
-        <div><Header/></div>
+        <>
+        <Header />
+        <Nav/>
+        <About/>
+        <Experience/>
+        <Services/>
+        <Portafolio/>
+        <Testimonials/>
+        <Contact/>
+        <Footer/>
+        </>
     )
 } 
 export default App;
