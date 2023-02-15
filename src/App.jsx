@@ -8,10 +8,12 @@ import Nav from './components/Nav/Nav.jsx';
 import Portafolio from './components/Portafolio/Portafolio.jsx';
 import Services from './components/Services/Services.jsx';
 import Testimonials from './components/Testimonials/Testimonials.jsx';
+import CTA from './components/Header/CTA.jsx'
 const App = () => {
     return (
         <>
         <Header />
+        <CTA/>
         <Nav/>
         <About/>
         <Experience/>
