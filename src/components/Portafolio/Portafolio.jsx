@@ -69,8 +69,8 @@ const Portafolio = () => {
                     </div>
                     <h3>This is a portafolio item title</h3>
                     <div className="portafolio__item-cta">
-                    <a href="https://github.com" className="btn">Github</a>
-                    <a href="https://github.com" className="btn btn-primary" target='_blank'>Live Now</a>
+                    <a href="https://github.com/Maethor300" className="btn">Github</a>
+                    <a href="https://github.com/Maethor300" className="btn btn-primary" target='_blank'>Live Now</a>
                     </div>
                 </article>
             </div>
