@@ -22,18 +22,18 @@ const About = () => {
                            <h5>Experience</h5>
                            <small>1 Year Working</small>
                         </article>
-                        <article className="about__card">
+                        {/* <article className="about__card">
                             <FiUsers className="about__icon"/>
                            <h5>Clients</h5>
                            <small>200+ worldwide</small>
-                        </article>
+                        </article> */}
                         <article className="about__card">
                             <VscFolderLibrary className="about__icon"/>
                            <h5>Projects</h5>
-                           <small>80+ plus completed</small>
+                           <small>2+ plus completed</small>
                         </article>
                      </div>
-                     <p>Soy estudiante de Gestión y Desarrollo de Software experto en Frontend, Internet of Things, y Backend. Desarrollé la página web de Bibi Decora, así como la campaña de Google Ads, creando oportunidades de ventas en el mundo digital.
+                     <p>Soy estudiante de Gestión y Desarrollo de Software experto en Frontend, Internet of Things y Backend. Desarrollé la página web de Bibi Decora, así como la campaña de Google Ads, creando oportunidades de ventas en el mundo digital.
                      Soy una persona estratégica, autodidacta y proactiva, me gusta estudiar y aprender sobre nuevas tecnologías y como estas van cambiando nuestra manera de ver y hacer las cosas.</p>
                      <a href="#contact" className="btn btn-primary">Let's Talk</a>
                 </div>
