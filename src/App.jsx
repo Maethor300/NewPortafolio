@@ -8,16 +8,19 @@ import Nav from './components/Nav/Nav.jsx';
 import Portafolio from './components/Portafolio/Portafolio.jsx';
 import Services from './components/Services/Services.jsx';
 import Testimonials from './components/Testimonials/Testimonials.jsx';
+import Loading from'./components/Loading/Loading.jsx';
+import { Route } from "react-router-dom";
 const App = () => {
     return (
         <>
+        {/* <Route exact path="/" component={Loading}/> */}
         <Header />
         <Nav/>
         <About/>
-        {/* <Experience/>
-        <Services/> */}
+        <Experience/>
+        {/* <Services/> */}
         <Portafolio/>
-        {/* <Testimonials/> */}
+        <Testimonials/>
         <Contact/>
         <Footer/>
         </>

@@ -11,11 +11,11 @@ const Footer = () => {
             <ul className="permalinks">
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#Experience">Experience</a></li>
-                <li><a href="#Services">Services</a></li>
-                <li><a href="#Portafolio">Portafolio</a></li>
-                <li><a href="#Testimonials">Testimonials</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#experience">Experience</a></li>
+                {/* <li><a href="#Services">Services</a></li> */}
+                <li><a href="#portafolio">Portafolio</a></li>
+                {/* <li><a href="#Testimonials">Testimonials</a></li> */}
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div className="footer__socials">
             <a href="https://www.linkedin.com/in/daviderazo" target="_blank"><AiFillLinkedin/></a>
