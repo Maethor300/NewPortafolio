@@ -17,14 +17,34 @@
 .portafolio__item-image {
     border-radius:1.5rem;
     overflow: hidden;
+    height: 310px;
 }
 .portafolio__item h3{
     margin: 1.2rem 0 2rem;
+    display: flex;
+    justify-content: center;
 }
 .portafolio__item-cta{
      display: flex;
      gap: 1rem;
      margin-bottom:1rem ;
+     justify-content: center;
+}
+ 
+.dogs{
+    height: 310px;
+}
+.Own {
+    height: 310px;
+}
+.google {
+    height: 310px;
+}
+.img5{
+    height: 310px;
+}
+.img6 {
+    height: 310px ;
 }
 /* ================== MEDIA QUERIES (MEDIUM DEVICES) ==================*/
 @media screen and (max-width:1024px){

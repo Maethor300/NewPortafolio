@@ -12,7 +12,7 @@ const About = () => {
             <div className="container about__container">
                 <div className="about__me">
                     <div className="about__me-image">
-                        <img src={IMG} alt="" />
+                        <img className="milogo" src={IMG} alt="" />
                     </div>
                 </div>
                 <div className="about__content">
@@ -33,8 +33,9 @@ const About = () => {
                            <small>2+ plus completed</small>
                         </article>
                      </div>
-                     <p>Soy estudiante de Gestión y Desarrollo de Software experto en Frontend, Internet of Things y Backend. Desarrollé la página web de Bibi Decora, así como la campaña de Google Ads, creando oportunidades de ventas en el mundo digital.
-                     Soy una persona estratégica, autodidacta y proactiva, me gusta estudiar y aprender sobre nuevas tecnologías y como estas van cambiando nuestra manera de ver y hacer las cosas.</p>
+                     <p>I'm a Software Management and Development student specializing in Frontend, Internet of Things, and Backend. I developed the Bibi Decora website, as well as the Google Ads campaign, creating sales opportunities in the digital world.
+
+I am a strategic, self-taught, and proactive person, I like to study and learn about new technologies and how they are changing our way of seeing and doing things.</p>
                      <a href="#contact" className="btn btn-primary">Let's Talk</a>
                 </div>
             </div>
